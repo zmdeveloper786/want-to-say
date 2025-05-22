@@ -1,12 +1,10 @@
-import React from 'react'
-import SlideShow from './components/SlideShow'
+import React from 'react';
+import WelcomeImage from './components/WelcomeImage';
 
-const App = () => {
+function App() {
   return (
-    <>
-    <SlideShow />
-    </>
-  )
+    <WelcomeImage />
+  );
 }
 
-export default App
+export default App;
