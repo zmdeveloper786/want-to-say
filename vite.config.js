@@ -7,5 +7,5 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()
   ],
-  base: '/want-to-say/',
+  base: process.env.VITE_BASE_PATH || "/want-to-say/",
 })
