@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap');
+@import 'tailwindcss'
+
+@layer base {
+  h3 {
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+  }
+  p {
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+  }
+}
